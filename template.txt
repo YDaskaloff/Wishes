@@ -1,0 +1,14 @@
+import React from 'react';
+import { View, StyleSheet } from 'react-native';
+
+import TextCustom from '../pieces/TextCustom';
+
+const CompName = (props) => {
+  return;
+};
+
+export const screenOptions = (navData) => {};
+
+const styles = StyleSheet.create({});
+
+export default CompName;
