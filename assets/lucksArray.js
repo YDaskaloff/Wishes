@@ -1,4 +1,4 @@
-const wishes = [
+const lucks = [
   'В същата крачка продължавай и на инат не се предавай!',
   'С приятели нови напред - това ще бъде твоят нов късмет.',
   'Трудолюбив бъди и много спечели!',
@@ -106,4 +106,4 @@ const wishes = [
 //   return console.log(wishesTexts);
 // };
 
-export default wishes;
+export default lucks;
