@@ -1,5 +1,5 @@
 /* eslint-disable react-native/no-inline-styles */
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useRef, useState} from 'react';
 import {
   View,
   StyleSheet,
@@ -49,6 +49,16 @@ const Main = (props) => {
     return luck;
   };
   const [luckToDisplay, setLuckToDisplay] = useState(getLucky());
+  // const lucksDur = lucks.map((l) => l.length);
+  // console.log(Math.max(...lucksDur));
+  const readingDuration =
+    luckToDisplay.length < 40
+      ? luckToDisplay.length * 175
+      : luckToDisplay.length > 75
+      ? luckToDisplay.length * 125
+      : luckToDisplay.length * 145;
+  console.log('Luck length: ' + luckToDisplay.length);
+  console.log('Reading dur: ' + readingDuration);
 
   const makeBig = Animated.timing(animatedValue, {
     toValue: 1,
@@ -68,6 +78,9 @@ const Main = (props) => {
       spinItFast.stop();
       fadeInAnimFn.start();
     }, duration);
+    setTimeout(() => {
+      reset();
+    }, readingDuration);
   };
 
   const moveToMiddle = Animated.timing(luckPosition, {
@@ -175,7 +188,7 @@ const Main = (props) => {
         }}>
         <Animated.Text style={{...styles.luck}}>{luckToDisplay}</Animated.Text>
       </Animated.View>
-      <Animated.View
+      {/* <Animated.View
         style={{opacity: tryAgainOpacity, ...styles.tryAgainContainer}}>
         <TouchableOpacity
           onPress={() => {
@@ -185,7 +198,7 @@ const Main = (props) => {
             <Text style={styles.tryAgainText}>Още едно?</Text>
           </View>
         </TouchableOpacity>
-      </Animated.View>
+      </Animated.View> */}
     </View>
   );
 };
