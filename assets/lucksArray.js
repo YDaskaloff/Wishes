@@ -98,9 +98,9 @@ const lucks = [
 
 // const getInner = () => {
 //   let wishesTexts = [];
-//   const listWishes = document.querySelectorAll('[data-role="toclip"]');
-//   for (let i = 0; i < listWishes.length; i++) {
-//     const wish = listWishes[i].querySelector('[data-role="text"]');
+//   const listLucks = document.querySelectorAll('[data-role="toclip"]');
+//   for (let i = 0; i < listLucks.length; i++) {
+//     const wish = listLucks[i].querySelector('[data-role="text"]');
 //     wishesTexts.push(wish.innerText);
 //   }
 //   return console.log(wishesTexts);

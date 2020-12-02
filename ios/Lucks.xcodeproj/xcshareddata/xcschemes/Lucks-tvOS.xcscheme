@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "Wishes-tvOS.app"
-               BlueprintName = "Wishes-tvOS"
-               ReferencedContainer = "container:Wishes.xcodeproj">
+               BuildableName = "Lucks-tvOS.app"
+               BlueprintName = "Lucks-tvOS"
+               ReferencedContainer = "container:Lucks.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "Wishes-tvOSTests.xctest"
-               BlueprintName = "Wishes-tvOSTests"
-               ReferencedContainer = "container:Wishes.xcodeproj">
+               BuildableName = "Lucks-tvOSTests.xctest"
+               BlueprintName = "Lucks-tvOSTests"
+               ReferencedContainer = "container:Lucks.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Wishes-tvOS.app"
-            BlueprintName = "Wishes-tvOS"
-            ReferencedContainer = "container:Wishes.xcodeproj">
+            BuildableName = "Lucks-tvOS.app"
+            BlueprintName = "Lucks-tvOS"
+            ReferencedContainer = "container:Lucks.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Wishes-tvOS.app"
-            BlueprintName = "Wishes-tvOS"
-            ReferencedContainer = "container:Wishes.xcodeproj">
+            BuildableName = "Lucks-tvOS.app"
+            BlueprintName = "Lucks-tvOS"
+            ReferencedContainer = "container:Lucks.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* WishesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WishesTests.m */; };
+		00E356F31AD99517003FC87E /* LucksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LucksTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* WishesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WishesTests.m */; };
-		3E7696C6E095E21C83CFA3FC /* libPods-Wishes-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C0BDF876171C2EE74141A6 /* libPods-Wishes-tvOSTests.a */; };
-		793A1B8F3613A0F0563D55F8 /* libPods-Wishes-WishesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6AE59A4FACECB4E1924B8C /* libPods-Wishes-WishesTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* LucksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LucksTests.m */; };
+		3E7696C6E095E21C83CFA3FC /* libPods-Lucks-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C0BDF876171C2EE74141A6 /* libPods-Lucks-tvOSTests.a */; };
+		793A1B8F3613A0F0563D55F8 /* libPods-Lucks-LucksTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6AE59A4FACECB4E1924B8C /* libPods-Lucks-LucksTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		8DD72F4C281904D1DFC76FA1 /* libPods-Wishes-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E439F25FECEA705AA640C2 /* libPods-Wishes-tvOS.a */; };
-		AD39F3E25A141FC58BB2A553 /* libPods-Wishes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1D44F69408966481CE51A0 /* libPods-Wishes.a */; };
+		8DD72F4C281904D1DFC76FA1 /* libPods-Lucks-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E439F25FECEA705AA640C2 /* libPods-Lucks-tvOS.a */; };
+		AD39F3E25A141FC58BB2A553 /* libPods-Lucks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1D44F69408966481CE51A0 /* libPods-Lucks.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Wishes;
+			remoteInfo = Lucks;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "Wishes-tvOS";
+			remoteInfo = "Lucks-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* WishesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WishesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* LucksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LucksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* WishesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WishesTests.m; sourceTree = "<group>"; };
-		0217600A5B2CA6ACCD798302 /* Pods-Wishes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wishes.debug.xcconfig"; path = "Target Support Files/Pods-Wishes/Pods-Wishes.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Wishes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wishes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Wishes/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Wishes/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Wishes/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Wishes/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Wishes/main.m; sourceTree = "<group>"; };
-		1F6AE59A4FACECB4E1924B8C /* libPods-Wishes-WishesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wishes-WishesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* Wishes-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wishes-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* Wishes-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wishes-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		42BC77A77C0F8A5C4E941408 /* Pods-Wishes-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wishes-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Wishes-tvOSTests/Pods-Wishes-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		499004106F6F88F430F6AD13 /* Pods-Wishes-WishesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wishes-WishesTests.debug.xcconfig"; path = "Target Support Files/Pods-Wishes-WishesTests/Pods-Wishes-WishesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		60C0BDF876171C2EE74141A6 /* libPods-Wishes-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wishes-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Wishes/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		97F92FF2664A9304DD929AFD /* Pods-Wishes-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wishes-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Wishes-tvOS/Pods-Wishes-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		AC60C1FB1BBDA5A0E4714AFA /* Pods-Wishes-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wishes-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Wishes-tvOS/Pods-Wishes-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		B082FA464ADE1B799AAFE5B8 /* Pods-Wishes-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wishes-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Wishes-tvOSTests/Pods-Wishes-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B4E439F25FECEA705AA640C2 /* libPods-Wishes-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wishes-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBA91BB802C6A99ADF2727D8 /* Pods-Wishes-WishesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wishes-WishesTests.release.xcconfig"; path = "Target Support Files/Pods-Wishes-WishesTests/Pods-Wishes-WishesTests.release.xcconfig"; sourceTree = "<group>"; };
-		D3839C9ABBA974DCA3AAD40F /* Pods-Wishes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wishes.release.xcconfig"; path = "Target Support Files/Pods-Wishes/Pods-Wishes.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* LucksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LucksTests.m; sourceTree = "<group>"; };
+		0217600A5B2CA6ACCD798302 /* Pods-Lucks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucks.debug.xcconfig"; path = "Target Support Files/Pods-Lucks/Pods-Lucks.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Lucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Lucks/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Lucks/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Lucks/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Lucks/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Lucks/main.m; sourceTree = "<group>"; };
+		1F6AE59A4FACECB4E1924B8C /* libPods-Lucks-LucksTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lucks-LucksTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* Lucks-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lucks-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Lucks-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lucks-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BC77A77C0F8A5C4E941408 /* Pods-Lucks-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucks-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Lucks-tvOSTests/Pods-Lucks-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		499004106F6F88F430F6AD13 /* Pods-Lucks-LucksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucks-LucksTests.debug.xcconfig"; path = "Target Support Files/Pods-Lucks-LucksTests/Pods-Lucks-LucksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		60C0BDF876171C2EE74141A6 /* libPods-Lucks-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lucks-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Lucks/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97F92FF2664A9304DD929AFD /* Pods-Lucks-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucks-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Lucks-tvOS/Pods-Lucks-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AC60C1FB1BBDA5A0E4714AFA /* Pods-Lucks-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucks-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Lucks-tvOS/Pods-Lucks-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		B082FA464ADE1B799AAFE5B8 /* Pods-Lucks-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucks-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Lucks-tvOSTests/Pods-Lucks-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4E439F25FECEA705AA640C2 /* libPods-Lucks-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lucks-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA91BB802C6A99ADF2727D8 /* Pods-Lucks-LucksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucks-LucksTests.release.xcconfig"; path = "Target Support Files/Pods-Lucks-LucksTests/Pods-Lucks-LucksTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3839C9ABBA974DCA3AAD40F /* Pods-Lucks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucks.release.xcconfig"; path = "Target Support Files/Pods-Lucks/Pods-Lucks.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FC1D44F69408966481CE51A0 /* libPods-Wishes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wishes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1D44F69408966481CE51A0 /* libPods-Lucks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lucks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				793A1B8F3613A0F0563D55F8 /* libPods-Wishes-WishesTests.a in Frameworks */,
+				793A1B8F3613A0F0563D55F8 /* libPods-Lucks-LucksTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD39F3E25A141FC58BB2A553 /* libPods-Wishes.a in Frameworks */,
+				AD39F3E25A141FC58BB2A553 /* libPods-Lucks.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DD72F4C281904D1DFC76FA1 /* libPods-Wishes-tvOS.a in Frameworks */,
+				8DD72F4C281904D1DFC76FA1 /* libPods-Lucks-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E7696C6E095E21C83CFA3FC /* libPods-Wishes-tvOSTests.a in Frameworks */,
+				3E7696C6E095E21C83CFA3FC /* libPods-Lucks-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* WishesTests */ = {
+		00E356EF1AD99517003FC87E /* LucksTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* WishesTests.m */,
+				00E356F21AD99517003FC87E /* LucksTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = WishesTests;
+			path = LucksTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Wishes */ = {
+		13B07FAE1A68108700A75B9A /* Lucks */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Wishes;
+			name = Lucks;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				FC1D44F69408966481CE51A0 /* libPods-Wishes.a */,
-				1F6AE59A4FACECB4E1924B8C /* libPods-Wishes-WishesTests.a */,
-				B4E439F25FECEA705AA640C2 /* libPods-Wishes-tvOS.a */,
-				60C0BDF876171C2EE74141A6 /* libPods-Wishes-tvOSTests.a */,
+				FC1D44F69408966481CE51A0 /* libPods-Lucks.a */,
+				1F6AE59A4FACECB4E1924B8C /* libPods-Lucks-LucksTests.a */,
+				B4E439F25FECEA705AA640C2 /* libPods-Lucks-tvOS.a */,
+				60C0BDF876171C2EE74141A6 /* libPods-Lucks-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,14 +152,14 @@
 		7EEB53C3EC3D2406124B8CD5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0217600A5B2CA6ACCD798302 /* Pods-Wishes.debug.xcconfig */,
-				D3839C9ABBA974DCA3AAD40F /* Pods-Wishes.release.xcconfig */,
-				499004106F6F88F430F6AD13 /* Pods-Wishes-WishesTests.debug.xcconfig */,
-				BBA91BB802C6A99ADF2727D8 /* Pods-Wishes-WishesTests.release.xcconfig */,
-				97F92FF2664A9304DD929AFD /* Pods-Wishes-tvOS.debug.xcconfig */,
-				AC60C1FB1BBDA5A0E4714AFA /* Pods-Wishes-tvOS.release.xcconfig */,
-				B082FA464ADE1B799AAFE5B8 /* Pods-Wishes-tvOSTests.debug.xcconfig */,
-				42BC77A77C0F8A5C4E941408 /* Pods-Wishes-tvOSTests.release.xcconfig */,
+				0217600A5B2CA6ACCD798302 /* Pods-Lucks.debug.xcconfig */,
+				D3839C9ABBA974DCA3AAD40F /* Pods-Lucks.release.xcconfig */,
+				499004106F6F88F430F6AD13 /* Pods-Lucks-LucksTests.debug.xcconfig */,
+				BBA91BB802C6A99ADF2727D8 /* Pods-Lucks-LucksTests.release.xcconfig */,
+				97F92FF2664A9304DD929AFD /* Pods-Lucks-tvOS.debug.xcconfig */,
+				AC60C1FB1BBDA5A0E4714AFA /* Pods-Lucks-tvOS.release.xcconfig */,
+				B082FA464ADE1B799AAFE5B8 /* Pods-Lucks-tvOSTests.debug.xcconfig */,
+				42BC77A77C0F8A5C4E941408 /* Pods-Lucks-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -175,9 +175,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Wishes */,
+				13B07FAE1A68108700A75B9A /* Lucks */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* WishesTests */,
+				00E356EF1AD99517003FC87E /* LucksTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				7EEB53C3EC3D2406124B8CD5 /* Pods */,
@@ -190,10 +190,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Wishes.app */,
-				00E356EE1AD99517003FC87E /* WishesTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* Wishes-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* Wishes-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Lucks.app */,
+				00E356EE1AD99517003FC87E /* LucksTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Lucks-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Lucks-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* WishesTests */ = {
+		00E356ED1AD99517003FC87E /* LucksTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WishesTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LucksTests" */;
 			buildPhases = (
 				EBF102C4EF2281719338D146 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -216,14 +216,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = WishesTests;
-			productName = WishesTests;
-			productReference = 00E356EE1AD99517003FC87E /* WishesTests.xctest */;
+			name = LucksTests;
+			productName = LucksTests;
+			productReference = 00E356EE1AD99517003FC87E /* LucksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Wishes */ = {
+		13B07F861A680F5B00A75B9A /* Lucks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Wishes" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Lucks" */;
 			buildPhases = (
 				F37CD61088F35319ABF0809E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -237,14 +237,14 @@
 			);
 			dependencies = (
 			);
-			name = Wishes;
-			productName = Wishes;
-			productReference = 13B07F961A680F5B00A75B9A /* Wishes.app */;
+			name = Lucks;
+			productName = Lucks;
+			productReference = 13B07F961A680F5B00A75B9A /* Lucks.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* Wishes-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* Lucks-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Wishes-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Lucks-tvOS" */;
 			buildPhases = (
 				31611C262C2DCF1AA6055C11 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -257,14 +257,14 @@
 			);
 			dependencies = (
 			);
-			name = "Wishes-tvOS";
-			productName = "Wishes-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* Wishes-tvOS.app */;
+			name = "Lucks-tvOS";
+			productName = "Lucks-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Lucks-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* Wishes-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* Lucks-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Wishes-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Lucks-tvOSTests" */;
 			buildPhases = (
 				CF41E62AE3F8E470C6686553 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "Wishes-tvOSTests";
-			productName = "Wishes-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* Wishes-tvOSTests.xctest */;
+			name = "Lucks-tvOSTests";
+			productName = "Lucks-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Lucks-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Wishes" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Lucks" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Wishes */,
-				00E356ED1AD99517003FC87E /* WishesTests */,
-				2D02E47A1E0B4A5D006451C7 /* Wishes-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* Wishes-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* Lucks */,
+				00E356ED1AD99517003FC87E /* LucksTests */,
+				2D02E47A1E0B4A5D006451C7 /* Lucks-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Lucks-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -406,7 +406,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Wishes-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Lucks-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -419,7 +419,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Wishes/Pods-Wishes-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Lucks/Pods-Lucks-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -428,7 +428,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wishes/Pods-Wishes-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lucks/Pods-Lucks-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CF41E62AE3F8E470C6686553 /* [CP] Check Pods Manifest.lock */ = {
@@ -446,7 +446,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Wishes-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Lucks-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -459,7 +459,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Wishes-WishesTests/Pods-Wishes-WishesTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Lucks-LucksTests/Pods-Lucks-LucksTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -468,7 +468,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wishes-WishesTests/Pods-Wishes-WishesTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lucks-LucksTests/Pods-Lucks-LucksTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EBF102C4EF2281719338D146 /* [CP] Check Pods Manifest.lock */ = {
@@ -486,7 +486,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Wishes-WishesTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Lucks-LucksTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -508,7 +508,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Wishes-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Lucks-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -560,7 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* WishesTests.m in Sources */,
+				00E356F31AD99517003FC87E /* LucksTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* WishesTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* LucksTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,12 +595,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Wishes */;
+			target = 13B07F861A680F5B00A75B9A /* Lucks */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* Wishes-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* Lucks-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,14 +608,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 499004106F6F88F430F6AD13 /* Pods-Wishes-WishesTests.debug.xcconfig */;
+			baseConfigurationReference = 499004106F6F88F430F6AD13 /* Pods-Lucks-LucksTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = WishesTests/Info.plist;
+				INFOPLIST_FILE = LucksTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -625,17 +625,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wishes.app/Wishes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucks.app/Lucks";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBA91BB802C6A99ADF2727D8 /* Pods-Wishes-WishesTests.release.xcconfig */;
+			baseConfigurationReference = BBA91BB802C6A99ADF2727D8 /* Pods-Lucks-LucksTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = WishesTests/Info.plist;
+				INFOPLIST_FILE = LucksTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -645,19 +645,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wishes.app/Wishes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucks.app/Lucks";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0217600A5B2CA6ACCD798302 /* Pods-Wishes.debug.xcconfig */;
+			baseConfigurationReference = 0217600A5B2CA6ACCD798302 /* Pods-Lucks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Wishes/Info.plist;
+				INFOPLIST_FILE = Lucks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Wishes;
+				PRODUCT_NAME = Lucks;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -674,12 +674,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3839C9ABBA974DCA3AAD40F /* Pods-Wishes.release.xcconfig */;
+			baseConfigurationReference = D3839C9ABBA974DCA3AAD40F /* Pods-Lucks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Wishes/Info.plist;
+				INFOPLIST_FILE = Lucks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -687,7 +687,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Wishes;
+				PRODUCT_NAME = Lucks;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97F92FF2664A9304DD929AFD /* Pods-Wishes-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 97F92FF2664A9304DD929AFD /* Pods-Lucks-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -706,14 +706,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Wishes-tvOS/Info.plist";
+				INFOPLIST_FILE = "Lucks-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Wishes-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Lucks-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC60C1FB1BBDA5A0E4714AFA /* Pods-Wishes-tvOS.release.xcconfig */;
+			baseConfigurationReference = AC60C1FB1BBDA5A0E4714AFA /* Pods-Lucks-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -734,14 +734,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Wishes-tvOS/Info.plist";
+				INFOPLIST_FILE = "Lucks-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Wishes-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Lucks-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B082FA464ADE1B799AAFE5B8 /* Pods-Wishes-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = B082FA464ADE1B799AAFE5B8 /* Pods-Lucks-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -761,24 +761,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Wishes-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Lucks-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Wishes-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Lucks-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wishes-tvOS.app/Wishes-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucks-tvOS.app/Lucks-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42BC77A77C0F8A5C4E941408 /* Pods-Wishes-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 42BC77A77C0F8A5C4E941408 /* Pods-Lucks-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -788,17 +788,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Wishes-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Lucks-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Wishes-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Lucks-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wishes-tvOS.app/Wishes-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucks-tvOS.app/Lucks-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -919,7 +919,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WishesTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LucksTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -928,7 +928,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Wishes" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Lucks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -937,7 +937,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Wishes-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Lucks-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -946,7 +946,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Wishes-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Lucks-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -955,7 +955,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Wishes" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Lucks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
