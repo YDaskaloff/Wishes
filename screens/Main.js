@@ -8,10 +8,12 @@ import {
   Dimensions,
   TouchableWithoutFeedback,
   Text,
-  TouchableOpacity,
   StatusBar,
 } from 'react-native';
 import lucks from '../assets/lucksArray';
+
+const windowWidth = Dimensions.get('window').width;
+const windowHeight = Dimensions.get('window').height;
 
 const Styles = {
   backgroundColor: '#FFF1D9',
@@ -26,12 +28,12 @@ const Styles = {
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
   },
+  bigText: windowWidth * 0.075,
+  smallText: windowWidth * 0.05,
+  luckText: windowWidth * 0.06,
 };
 
 const Main = (props) => {
-  const windowWidth = Dimensions.get('window').width;
-  const windowHeight = Dimensions.get('window').height;
-
   const img = require('../assets/detelina.png');
   const duration = 1500;
 
@@ -219,11 +221,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   promptTextSub: {
-    fontSize: 18,
+    fontSize: Styles.smallText,
     color: Styles.purple,
   },
   promptTextMain: {
-    fontSize: 25,
+    fontSize: Styles.bigText,
     color: Styles.purple,
     fontWeight: 'bold',
   },
@@ -257,7 +259,7 @@ const styles = StyleSheet.create({
     width: '95%',
   },
   luck: {
-    fontSize: 22,
+    fontSize: Styles.luckText,
     fontWeight: 'bold',
     color: Styles.purple,
     textAlign: 'center',
