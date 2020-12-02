@@ -9,6 +9,7 @@ import {
   TouchableWithoutFeedback,
   Text,
   StatusBar,
+  TouchableOpacity,
 } from 'react-native';
 import lucks from '../assets/lucksArray';
 
@@ -249,7 +250,7 @@ const styles = StyleSheet.create({
   tryAgainText: {
     color: 'white',
     fontWeight: 'bold',
-    fontSize: 20,
+    fontSize: Styles.luckText * 0.8,
   },
   luckContainer: {
     position: 'absolute',
