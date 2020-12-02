@@ -60,8 +60,8 @@ const Main = (props) => {
       : luckToDisplay.length > 75
       ? luckToDisplay.length * 125
       : luckToDisplay.length * 145;
-  console.log('Luck length: ' + luckToDisplay.length);
-  console.log('Reading dur: ' + readingDuration);
+  // console.log('Luck length: ' + luckToDisplay.length);
+  // console.log('Reading dur: ' + readingDuration);
 
   const makeBig = Animated.timing(animatedValue, {
     toValue: 1,
