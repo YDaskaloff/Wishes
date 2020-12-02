@@ -1,5 +1,5 @@
 /* eslint-disable react-native/no-inline-styles */
-import React, {useRef, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import {
   View,
   StyleSheet,
@@ -39,9 +39,9 @@ const Main = (props) => {
   const spinValue = new Animated.Value(0);
   const fadeAnim = useRef(new Animated.Value(1)).current;
   const tryAgainOpacity = useRef(new Animated.Value(0)).current;
-  const luckPosition = new Animated.Value(-10);
+  const luckPosition = useRef(new Animated.Value(0)).current;
 
-  console.log(luckPosition);
+  // console.log(luckPosition);
 
   const getLucky = () => {
     const luckIndex = Math.floor(Math.random() * lucks.length);
@@ -112,7 +112,8 @@ const Main = (props) => {
     animatedValue.setValue(0);
     tryAgainOpacity.setValue(0);
     spinValue.setValue(0);
-    luckPosition.setValue(-10);
+    // moveToBottom.start();
+    luckPosition.setValue(0);
     spinIt.start();
     setLuckToDisplay(getLucky());
   };
@@ -166,8 +167,8 @@ const Main = (props) => {
           transform: [
             {
               translateY: luckPosition.interpolate({
-                inputRange: [0, 1],
-                outputRange: [windowHeight / 2, 1],
+                inputRange: [0.5, 1],
+                outputRange: [windowHeight / 2, 0],
               }),
             },
           ],
@@ -176,7 +177,10 @@ const Main = (props) => {
       </Animated.View>
       <Animated.View
         style={{opacity: tryAgainOpacity, ...styles.tryAgainContainer}}>
-        <TouchableOpacity onPress={reset}>
+        <TouchableOpacity
+          onPress={() => {
+            reset();
+          }}>
           <View style={styles.tryAgainButton}>
             <Text style={styles.tryAgainText}>Още едно?</Text>
           </View>
