@@ -17,8 +17,8 @@ const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
 const Styles = {
-  backgroundColor: '#FFF1D9',
-  purple: '#7C007C',
+  backgroundColor: '#515151',
+  purple: '#EDA231',
   shadow: {
     elevation: 5,
     shadowColor: 'black',
@@ -56,12 +56,12 @@ const Main = (props) => {
   // console.log(Math.max(...lucksDur));
   const readingDuration =
     luckToDisplay.length < 40
-      ? luckToDisplay.length * 175
+      ? luckToDisplay.length * 165
       : luckToDisplay.length > 75
-      ? luckToDisplay.length * 125
-      : luckToDisplay.length * 145;
-  // console.log('Luck length: ' + luckToDisplay.length);
-  // console.log('Reading dur: ' + readingDuration);
+      ? luckToDisplay.length * 115
+      : luckToDisplay.length * 125;
+  console.log('Luck length: ' + luckToDisplay.length);
+  console.log('Reading dur: ' + readingDuration);
 
   const makeBig = Animated.timing(animatedValue, {
     toValue: 1,
@@ -256,7 +256,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     alignItems: 'center',
     padding: 5,
-    backgroundColor: 'rgba(255, 241, 217, 0.8)',
+    backgroundColor: 'rgba(81, 81, 81, 0.8)',
     width: '95%',
   },
   luck: {
