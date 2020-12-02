@@ -217,7 +217,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 30,
     width: '90%',
-    height: 60,
+    height: Styles.bigText * 2.4,
     justifyContent: 'space-between',
     alignItems: 'center',
   },
